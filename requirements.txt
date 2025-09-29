@@ -1,0 +1,6 @@
+Django==4.3
+djangorestframework==3.20
+djangorestframework-simplejwt==5.3.0
+pytz
+python-dotenv
+drf-yasg==1.22.3      # Swagger documentation
