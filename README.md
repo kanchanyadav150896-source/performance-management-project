@@ -32,4 +32,4 @@ python manage.py runserver
 
 7. Swagger API docs:
 
-http://localhost:8000/swagger/
+http://localhost:8000/api/login/

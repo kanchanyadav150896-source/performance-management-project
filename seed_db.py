@@ -3,12 +3,12 @@ import django
 import random
 from datetime import date, timedelta
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'performance_management.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'techcorp_performance.settings')
 django.setup()
 
-from apps.users.models import Employee, User
-from apps.reviews.models import ReviewCycle, Review, Score
-from apps.goals.models import Goal
+from users.models import Employee, User
+from reviews.models import ReviewCycle, Review, Score
+from goals.models import Goal
 from django.contrib.auth.hashers import make_password
 
 # Create 20 employees
